@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="index.html" target="_self">Voltar</a></h1>
+    <form>
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" name="age" /><br>
+        Senha: <input type="password" name="password" /><br>
+        <label for="role">Cargo:</label>
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option selected value="presidente">Presidente</option>
+        </select><br>
+        <textarea name="message" cols="50" rows="20"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <p>autocomplete=on/off === ativa/desativa o preenchimento automático, salva dados como nome e idade no navegador</p>
+    <p>method="post/get(não recomendado)" === envia os dados do formulário para o servidor</p>
+    <p>action="" === define para onde os dados do formulário serão enviados</p>
+    <p>cols e rows === define o tamanho da área de texto por padrão</p>
+</body>
+</html>
